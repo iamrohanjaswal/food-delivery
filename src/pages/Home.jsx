@@ -45,7 +45,7 @@ const Home = () =>{
       </div>:null}
       
       <div className="w-full flex flex-wrap gap-5 px-5 justify-center items-center pt-8 pb-8">
-        {cate.length>1?cate.map((item)=>{
+        {cate.length>0?cate.map((item)=>{
           return( 
           <Card price={item.price} name={item.food_name} type={item.food_type} image={item.food_image} id={item.id}/>
         )}):<div className='text-2xl text-gray-500'>No dish found  :|</div>}
