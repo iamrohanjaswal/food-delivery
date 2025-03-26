@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.Toastify__progress-bar {
+    background: rgb(169, 25, 169) !important;
+  }
+  
